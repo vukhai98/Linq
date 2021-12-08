@@ -2,21 +2,23 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CustomFilterOperator
+namespace FilteringOperator
 {
     public static class MyLinq
     {
+        // 1.Read only ( chỉ đọc)
+        // 2.Forward only ( chỉ chạy tiến ko quay đầu )
         public static IEnumerable<T> Filter<T>(this IEnumerable<T> source, Func<T, bool> predicate)
         {
-            var result = new List<T>();
+            
             foreach (var item in source)
             {
                 if (predicate(item))
                 {
-                    result.Add(item);
+                  yield  return item;
                 }
             }
-            return result;
+          
         }
     }
 }

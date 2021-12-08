@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "Extensi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LamdaExpression", "LamdaExpression\LamdaExpression.csproj", "{6AF9D09D-CEF0-4CF3-BFA6-A994DA5B3C8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionVsFunc", "ActionVsFunc\ActionVsFunc.csproj", "{13D9BF58-1D13-4EC2-85DD-B72B1205AD4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionVsFunc", "ActionVsFunc\ActionVsFunc.csproj", "{13D9BF58-1D13-4EC2-85DD-B72B1205AD4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryAndMethodSyntax", "QueryAndMethodSyntax\QueryAndMethodSyntax.csproj", "{097DF7FE-DCBC-4E70-A232-6961D691F488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueryAndMethodSyntax", "QueryAndMethodSyntax\QueryAndMethodSyntax.csproj", "{097DF7FE-DCBC-4E70-A232-6961D691F488}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFilterOperator", "CustomFilterOperator\CustomFilterOperator.csproj", "{589BC0D3-E730-4829-9C1B-261106BAA1FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomFilterOperator", "CustomFilterOperator\CustomFilterOperator.csproj", "{589BC0D3-E730-4829-9C1B-261106BAA1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilteringOperator", "FilteringOperator\FilteringOperator.csproj", "{7E7AF3BB-E0F9-4B39-B008-0956C44327DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{589BC0D3-E730-4829-9C1B-261106BAA1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{589BC0D3-E730-4829-9C1B-261106BAA1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{589BC0D3-E730-4829-9C1B-261106BAA1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7AF3BB-E0F9-4B39-B008-0956C44327DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7AF3BB-E0F9-4B39-B008-0956C44327DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7AF3BB-E0F9-4B39-B008-0956C44327DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7AF3BB-E0F9-4B39-B008-0956C44327DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
