@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomFilterOperator", "Cus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilteringOperator", "FilteringOperator\FilteringOperator.csproj", "{7E7AF3BB-E0F9-4B39-B008-0956C44327DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingOperator", "SortingOperator\SortingOperator.csproj", "{BDCC92A1-7131-47DD-B8F5-369C124838A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingOperator", "SortingOperator\SortingOperator.csproj", "{BDCC92A1-7131-47DD-B8F5-369C124838A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupingOperator", "GroupingOperator\GroupingOperator.csproj", "{4A57987E-4AB1-4597-BF71-FC0FDB8DF1D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupingOperator", "GroupingOperator\GroupingOperator.csproj", "{4A57987E-4AB1-4597-BF71-FC0FDB8DF1D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoiningOperator", "JoiningOperator\JoiningOperator.csproj", "{0EFFF790-5E7C-44B3-BA17-6D50B7CE6F01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoiningOperator", "JoiningOperator\JoiningOperator.csproj", "{0EFFF790-5E7C-44B3-BA17-6D50B7CE6F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectionOperators", "ProjectionOperators\ProjectionOperators.csproj", "{AC5BFA66-7577-4D04-A9B6-530206C65815}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{0EFFF790-5E7C-44B3-BA17-6D50B7CE6F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EFFF790-5E7C-44B3-BA17-6D50B7CE6F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EFFF790-5E7C-44B3-BA17-6D50B7CE6F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5BFA66-7577-4D04-A9B6-530206C65815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5BFA66-7577-4D04-A9B6-530206C65815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5BFA66-7577-4D04-A9B6-530206C65815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5BFA66-7577-4D04-A9B6-530206C65815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
