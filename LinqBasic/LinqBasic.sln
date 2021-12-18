@@ -23,13 +23,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupingOperator", "Groupin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoiningOperator", "JoiningOperator\JoiningOperator.csproj", "{0EFFF790-5E7C-44B3-BA17-6D50B7CE6F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectionOperators", "ProjectionOperators\ProjectionOperators.csproj", "{AC5BFA66-7577-4D04-A9B6-530206C65815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectionOperators", "ProjectionOperators\ProjectionOperators.csproj", "{AC5BFA66-7577-4D04-A9B6-530206C65815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantifierOperators", "QuantifierOperators\QuantifierOperators.csproj", "{D5135C35-786E-4124-9B54-A658FF79001D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantifierOperators", "QuantifierOperators\QuantifierOperators.csproj", "{D5135C35-786E-4124-9B54-A658FF79001D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregationOperators", "AggregationOperators\AggregationOperators.csproj", "{5A300BB8-EB74-4D03-9C40-FE207F045F4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AggregationOperators", "AggregationOperators\AggregationOperators.csproj", "{5A300BB8-EB74-4D03-9C40-FE207F045F4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementOperators", "ElementOperators\ElementOperators.csproj", "{08A5151B-7514-4144-9F24-2A8FAF02B369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementOperators", "ElementOperators\ElementOperators.csproj", "{08A5151B-7514-4144-9F24-2A8FAF02B369}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualityOperators", "EqualityOperators\EqualityOperators.csproj", "{389C020C-515F-47B7-B8AA-18DA0B75264E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConCatenationOperator", "ConCatenationOperator\ConCatenationOperator.csproj", "{52A2B893-1FB1-4AA1-BE55-85A54221E016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationOperators", "GenerationOperators\GenerationOperators.csproj", "{6603C114-9F29-48C0-B70A-DB46F0DB0102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetOperators", "SetOperators\SetOperators.csproj", "{136D7D9A-200A-46C1-BDB6-FF62C82D1820}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +101,22 @@ Global
 		{08A5151B-7514-4144-9F24-2A8FAF02B369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08A5151B-7514-4144-9F24-2A8FAF02B369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08A5151B-7514-4144-9F24-2A8FAF02B369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389C020C-515F-47B7-B8AA-18DA0B75264E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389C020C-515F-47B7-B8AA-18DA0B75264E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389C020C-515F-47B7-B8AA-18DA0B75264E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389C020C-515F-47B7-B8AA-18DA0B75264E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A2B893-1FB1-4AA1-BE55-85A54221E016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A2B893-1FB1-4AA1-BE55-85A54221E016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A2B893-1FB1-4AA1-BE55-85A54221E016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A2B893-1FB1-4AA1-BE55-85A54221E016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6603C114-9F29-48C0-B70A-DB46F0DB0102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6603C114-9F29-48C0-B70A-DB46F0DB0102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6603C114-9F29-48C0-B70A-DB46F0DB0102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6603C114-9F29-48C0-B70A-DB46F0DB0102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136D7D9A-200A-46C1-BDB6-FF62C82D1820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136D7D9A-200A-46C1-BDB6-FF62C82D1820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136D7D9A-200A-46C1-BDB6-FF62C82D1820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136D7D9A-200A-46C1-BDB6-FF62C82D1820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
