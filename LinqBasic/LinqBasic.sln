@@ -47,17 +47,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImmediateExecution", "Immed
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Expression", "Expression\Expression.csproj", "{2A69050F-17FD-4341-A6F3-85FD01F1899D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionTree", "ExpressionTree\ExpressionTree.csproj", "{6A580893-5724-48C7-B99C-9A8406DE5FD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionTree", "ExpressionTree\ExpressionTree.csproj", "{6A580893-5724-48C7-B99C-9A8406DE5FD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetKeyword", "LetKeyword\LetKeyword.csproj", "{C38EAF3A-EAB2-4639-8563-C06058517904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetKeyword", "LetKeyword\LetKeyword.csproj", "{C38EAF3A-EAB2-4639-8563-C06058517904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkWithCvsFile", "WorkWithCvsFile\WorkWithCvsFile.csproj", "{D308802A-D95E-4BB5-829D-273A35E85637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkWithCvsFile", "WorkWithCvsFile\WorkWithCvsFile.csproj", "{D308802A-D95E-4BB5-829D-273A35E85637}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntoKeyWord", "IntoKeyword\IntoKeyWord.csproj", "{BA07C60A-EDCE-4AF1-96C3-7440F634B15F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithJson", "WorkingWithJson\WorkingWithJson.csproj", "{8F8EBC0D-8C3D-45F8-ADB0-47A468E7B141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithJson", "WorkingWithJson\WorkingWithJson.csproj", "{8F8EBC0D-8C3D-45F8-ADB0-47A468E7B141}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithXmlFile", "WorkingWithXmlFile\WorkingWithXmlFile.csproj", "{0976587F-4190-4697-9A7F-2A13C4BA4640}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithXmlFile", "WorkingWithXmlFile\WorkingWithXmlFile.csproj", "{0976587F-4190-4697-9A7F-2A13C4BA4640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithEFCore", "WorkingWithEFCore\WorkingWithEFCore.csproj", "{8BC37690-4F68-4244-91EC-8CC65B60C31E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{0976587F-4190-4697-9A7F-2A13C4BA4640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0976587F-4190-4697-9A7F-2A13C4BA4640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0976587F-4190-4697-9A7F-2A13C4BA4640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC37690-4F68-4244-91EC-8CC65B60C31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC37690-4F68-4244-91EC-8CC65B60C31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC37690-4F68-4244-91EC-8CC65B60C31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC37690-4F68-4244-91EC-8CC65B60C31E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
