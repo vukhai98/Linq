@@ -9,7 +9,7 @@ namespace WorkWithCvsFile
     {
         static void Main(string[] args)
         {
-            IEnumerable<string> strCsv = File.ReadAllLines("Sample.csv");
+            IEnumerable<string> strCsv = File.ReadAllLines("Content\\Sample.csv"); // xem lại cách dẫn file
             var result = from str in strCsv
                          let tmp = str.Split(",").Skip(1).Select(s => Convert.ToInt32(s))
                          select new
