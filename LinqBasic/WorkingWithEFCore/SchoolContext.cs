@@ -13,7 +13,7 @@ namespace WorkingWithEFCore
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.;Database=SchoolDB;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=ADMIN;Database=SchoolDB;Trusted_Connection=True;");
         }
     }
 }
