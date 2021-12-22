@@ -6,25 +6,25 @@ using System.Text;
 
 namespace EF2
 {
-    [Table("Product")]
+    //[Table("Product")]
     public class Product
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        //[Key] = HasKey(p => p.ProductId);
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ProductId { get; set; }
-        [Required]
-        [StringLength(50)]
-        [Column("TenSanPham",TypeName ="ntext")] 
+        //[Required]
+        //[StringLength(50)]
+        //[Column("TenSanPham",TypeName ="ntext")] 
         public string Name { get; set; }
         public decimal Price { get; set; }
         //Reference Navigation
         //ForeignKey
-        [ForeignKey("CategoryId")]
+        //[ForeignKey("CategoryId")]
         public Category Category { get; set; } //FK -> PK
-        public virtual int CategoryId { get;  set; }
+        public virtual int? CategoryId { get;  set; }
 
-        [ForeignKey("CategoryId2")]
-        [InverseProperty("Products")]
+        //[ForeignKey("CategoryId2")]
+        //[InverseProperty("Products")]
         public Category Category2 { get; set; } //FK -> PK
         public virtual int? CategoryId2 { get; set; }
 

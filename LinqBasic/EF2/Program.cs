@@ -64,11 +64,12 @@ namespace EF2
         }
         static void Main(string[] args)
         {
-            //DropDatabase();
-            //CreatedDatabase();
+            DropDatabase();
+            CreatedDatabase();
+            #region 
             //DropDatabase();
             //InsertDatabase();
-            using var dbContext = new ShopDbContext();
+            //using var dbContext = new ShopDbContext();
             //var category = (from c in dbContext.categories
             //                where c.CategoryId == 2
             //                select c).FirstOrDefault();
@@ -94,22 +95,26 @@ namespace EF2
             //}
             //Console.ReadKey();
 
-            var result = dbContext.products.
-                Join(dbContext.categories, p => p.CategoryId, c => c.CategoryId,
-                (p, c) => new
-                {
-                    Name = p.Name,
-                    Menu = c.Name,
-                    Price = p.Price
+            //var result = dbContext.products.
+            //    Join(dbContext.categories, p => p.CategoryId, c => c.CategoryId,
+            //    (p, c) => new
+            //    {
+            //        Name = p.Name,
+            //        Menu = c.Name,
+            //        Price = p.Price
 
-                });
-            foreach (var item in result)
-            {
-                Console.WriteLine($"{item.Name}+{item.Menu}+{item.Price}");
-            }
-            Console.ReadLine();
-               
-            
+            //    });
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item.Name}+{item.Menu}+{item.Price}");
+            //}
+            //Console.ReadLine();
+            #endregion
+            //Attribute
+            // Fluent API
+
+
+
 
         }
     }

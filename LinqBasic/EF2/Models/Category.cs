@@ -18,8 +18,8 @@ namespace EF2
         [Column(TypeName = "ntext")]
         public string Discription { get; set;  }
         // Collect Navigation 
-        public List<Product> Products { get; set; }   
-
-
+        public List<Product> Products { get; set; }  
+        public CategoryDetails CategoryDetails { get; set; }
+       
     }
 }
